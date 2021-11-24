@@ -8,7 +8,7 @@ public class VariatedRotationX : MonoBehaviour
     public Transform SatteliteY;
     public Transform SatteliteZ;
 
-    //скорость вращения зависит от модуля вектора-результата скалярного произведения между векторами-положениями объектов на орбитах Y и Z.
+    //скорость вращения зависит от модуля вектора-результата векторного произведения между векторами-положениями объектов на орбитах Y и Z.
 
     private void Update()
     {
