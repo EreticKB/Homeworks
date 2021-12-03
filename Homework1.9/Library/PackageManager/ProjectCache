@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637736147843116614
-    m_Hash: 3621568767
+      ticks: 637740682756634500
+    m_Hash: 1139918710
   m_LockFileStatus:
     m_FilePath: E:/Eretic/Lib/UnityHomeworks/Homeworks/Homework1.9/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637736147845077050
-    m_Hash: 217011888
+      ticks: 637740682756644498
+    m_Hash: 1189527608
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
