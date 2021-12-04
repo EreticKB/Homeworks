@@ -645,3 +645,9 @@ InitTestScene*.unity
 # Ionide (cross platform F# VS Code tools) working folder
 
 # End of https://www.toptal.com/developers/gitignore/api/rider,csharp,unity,visualstudio
+
+# Ignore excessive folders
+/Homework 1.6
+/Homework 1.7
+/Homework1.8
+/Homework1.9
