@@ -11,6 +11,7 @@ public class Game : MonoBehaviour
     public GameObject StopLevelPanel;
     private Text _tapToContinue;
     private Text _resultText;
+    private AudioSource _audioSource;
 
     [HideInInspector]
     public int DestroyedPlatformCount
@@ -36,6 +37,7 @@ public class Game : MonoBehaviour
     {
         _tapToContinue = StopLevelPanel.transform.Find("TapField/TapToContinue").GetComponent<Text>();
         _resultText = StopLevelPanel.transform.Find("ResultField/ResultText").GetComponent<Text>();
+        _audioSource = GetComponent<AudioSource>();
         temporaryDPlatformsCount = DestroyedPlatformCount;
     }
    
@@ -68,6 +70,7 @@ public class Game : MonoBehaviour
     private void SessionEnd(string message, string message2, bool isWon)
     {
         Controls.enabled = false;
+        _audioSource.Stop();
         temporaryDPlatformsCount = DestroyedPlatformCount;
         _resultText.text = message;
         _tapToContinue.text = message2;
