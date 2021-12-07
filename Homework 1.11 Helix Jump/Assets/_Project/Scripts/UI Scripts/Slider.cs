@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Slider : MonoBehaviour
 {
@@ -15,6 +14,7 @@ public class Slider : MonoBehaviour
     }
     private void Update()
     {
-        _slider.value = Mathf.InverseLerp(_cameraOffsetY, Finish.position.y+_cameraOffsetY, Camera.position.y);
+      _slider.value = Mathf.InverseLerp(_cameraOffsetY, Finish.position.y+_cameraOffsetY, Camera.position.y);
     }
+ 
 }

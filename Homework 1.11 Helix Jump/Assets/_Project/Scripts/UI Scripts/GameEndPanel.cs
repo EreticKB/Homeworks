@@ -8,7 +8,7 @@ public class GameEndPanel : MonoBehaviour
     public bool IsWon;
     public UnityEngine.UI.Slider Slider;
     public GameObject _percentComplete;
-       
+
     private void OnEnable()
     {
         if (IsWon)
@@ -26,6 +26,7 @@ public class GameEndPanel : MonoBehaviour
     }
     public void OnTap()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        gameObject.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);    
     }
 }

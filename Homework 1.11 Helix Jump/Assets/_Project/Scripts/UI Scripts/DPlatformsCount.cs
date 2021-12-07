@@ -3,16 +3,18 @@ using UnityEngine.UI;
 
 public class DPlatformsCount : MonoBehaviour
 {
-    public Game Game;
-    int _dCount;
     Text Text;
+    public int SessionDestroedPlatformCount;
+    public int TempDPlatformsLifeRecordFromLevelStart;
+    public Game Game;
+    
     private void Awake()
     {
-        _dCount = Game.GetComponent<Game>().DestroyedPlatformCount;
         Text = GetComponent<Text>();
     }
     private void Update()
     {
-        Text.text = "Destroed " + _dCount + " Platforms.";
+        Text.text = ("Destroed total " + TempDPlatformsLifeRecordFromLevelStart + " Platforms." +
+                     " \nIn current session: " + SessionDestroedPlatformCount);
     }
 }
