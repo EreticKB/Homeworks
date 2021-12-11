@@ -383,6 +383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2035409212068130270}
     m_Modifications:
+    - target: {fileID: -2460708749513163488, guid: bbc33b4525fcbc9439a7d3b24fe44fb4, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 5.6
+      objectReference: {fileID: 0}
     - target: {fileID: 473204762151854574, guid: bbc33b4525fcbc9439a7d3b24fe44fb4, type: 3}
       propertyPath: m_Name
       value: Sector (1)

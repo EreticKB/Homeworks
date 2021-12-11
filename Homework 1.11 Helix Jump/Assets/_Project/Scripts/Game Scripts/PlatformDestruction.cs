@@ -17,8 +17,8 @@ public class PlatformDestruction : MonoBehaviour
     private void Update()
     {
         if (!enabled) return;        
-        if (time < 1f) time += Time.deltaTime;            
-        else gameObject.SetActive(false); //пока закоментировано, чтобы не исчезало
+        if (time < .6f) time += Time.deltaTime;            
+        else gameObject.SetActive(false); 
         if (_isPlay)
         {
             _audioSource.Play();
