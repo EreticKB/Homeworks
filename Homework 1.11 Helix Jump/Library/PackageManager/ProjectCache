@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747720430246591
+      ticks: 637750207688594983
     m_Hash: 1885948172
   m_LockFileStatus:
     m_FilePath: E:/Eretic/Lib/UnityHomeworks/Homeworks/Homework 1.11 Helix Jump/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747720430256588
+      ticks: 637750207688594983
     m_Hash: 781209719
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -527,8 +527,10 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.7.0
+        - 10.8.0
         verified: 10.7.0
       dependencies:
       - name: com.unity.mathematics
@@ -3061,8 +3063,10 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.7.0
+        - 10.8.0
         verified: 10.7.0
       dependencies:
       - name: com.unity.ugui
@@ -3219,8 +3223,10 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.7.0
+        - 10.8.0
         verified: 10.7.0
       dependencies:
       - name: com.unity.render-pipelines.core
